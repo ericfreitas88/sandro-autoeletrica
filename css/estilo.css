@@ -1,26 +1,135 @@
+/* Estilo Geral */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 20px;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
 }
 
 @font-face {
-    font-family: 'Coolvetica';
-    src: url(../fonts/coolvetica-rg.ttf);
+  font-family: 'Coolvetica';
+  src: url(../fonts/coolvetica-rg.ttf);
 }
 
 header, main, footer {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-}
-.container-navg {
-    display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-figure {
-    display: flex;
+/* Estilo Header */
+header {
+  padding-top: 20px;
 }
+
+.container-navg {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.container-navg figure {
+  display: flex;
+}
+
+.container-navg img {
+  width: 200px;
+  object-fit: contain;
+}
+
+.container-navg nav {
+  display: flex;
+  align-items: center;
+}
+
+.container-navg a {
+  padding: 15px 25px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.container-navg a:hover {
+  background-color: #1f598b;
+  color: #ffde58;
+  border: none;
+}
+
+.container-banner h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #1f598b;
+}
+
+.container-banner h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #1f598b;
+}
+
+.container-banner a {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 15px 25px;
+  background-color: #43c554;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-banner a:hover {
+  background-color: #369443;
+  transition: 0.5s;
+}
+
+.container-banner span {
+  color: white;
+  font-size: 20px;
+}
+
+.container-banner svg {
+  margin-left: 15px;
+  fill: white;
+}
+
+/* Estilo Main */
+.container-conteudo {
+  margin-bottom: 50px;
+}
+.container-conteudo h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #1f598b;
+  margin-bottom: 45px;
+}
+
+.baterias-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.baterias-img img {
+  width: calc(100% / 3 - 80px);
+  margin-bottom: 20px;
+  object-fit: contain;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;  /* IE */
+  cursor: pointer;
+}
+
+.baterias-img img:hover {
+  -webkit-filter: none;	
+  filter: none;
+  transition: 0.5s;
+}
+
+/* Estilo Localização */
+  .location iframe {
+    width: 100%;
+    height: 450px;
+  }
