@@ -1,15 +1,14 @@
 /* Estilo Geral */
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(../fonts/coolvetica-rg.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  /* background-color: #f8f9fa; */
-}
-
-@font-face {
   font-family: 'Coolvetica';
-  src: url(../fonts/coolvetica-rg.ttf);
 }
 
 header, main, footer {
@@ -21,208 +20,194 @@ header, main, footer {
 
 /* Estilo Header */
 header {
-  padding-top: 20px;
+padding-top: 20px;
 }
 
 .container-navg {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 100px;
 }
 
 .container-navg figure {
-  display: flex;
+display: flex;
 }
 
 .container-navg img {
-  width: 200px;
-  object-fit: contain;
+width: 200px;
+object-fit: contain;
 }
 
 .container-navg nav {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
-.container-navg a {
-  padding: 15px 25px;
-  font-size: 25px;
-  font-weight: 600;
-  transition: 0.3s;
-}
+.container-navg a {padding: 15px 25px;font-size: 20px;font-weight: 600;transition: 0.3s;color: #1f598b;}
 
 .container-navg a:hover {
-  background-color: #1f598b;
-  color: #ffde58;
-  border: none;
-  transition: 0.3s;
+background-color: #1f598b;
+color: #ffde58;
+border: none;
+transition: 0.3s;
 }
 
 .container-banner h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: #1f598b;
+font-size: 50px;
+margin-bottom: 20px;
+color: #1f598b;
 }
 
 .container-banner h2 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 500;
-  color: #1f598b;
+font-size: 20px;
+margin-bottom: 20px;
+font-weight: 500;
+color: #1f598b;
 }
 
-.container-banner a {
-  display: flex;
-  align-items: center;
-  width: 200px;
-  padding: 15px 25px;
-  background-color: #43c554;
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-}
+.container-banner a {display: flex;align-items: center;justify-content: center;width: 200px;padding: 15px 25px;background-color: #43c554;color: white;border-radius: 10px;text-align: center;}
 
 .container-banner a:hover {
-  background-color: #369443;
-  transition: 0.5s;
+background-color: #369443;
+transition: 0.5s;
 }
 
-.container-banner span {
-  color: white;
-  font-size: 20px;
-  background-color: initial;
-}
+.container-banner span {color: white;font-size: 15px;background-color: initial;}
 
 .container-banner svg {
-  margin-left: 15px;
-  fill: white;
-  background-color: initial;
+margin-left: 15px;
+fill: white;
+background-color: initial;
 }
 
 /* Estilo Main */
 .container-conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
 }
 
 .container-conteudo h3 {
-  text-align: center;
-  font-size: 35px;
-  color: #1f598b;
-  margin-bottom: 45px;
+text-align: center;
+font-size: 35px;
+color: #1f598b;
+margin-bottom: 45px;
 }
 
 /* Eslito Baterias */
 
 .baterias-img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .baterias-img img {
-  width: calc(100% / 3 - 80px);
-  margin-bottom: 20px;
-  object-fit: contain;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray;
-  /* IE */
-  cursor: pointer;
+width: calc(100% / 3 - 80px);
+margin-bottom: 20px;
+object-fit: contain;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+filter: gray;
+/* IE */
+cursor: pointer;
 }
 
 .baterias-img img:hover {
-  -webkit-filter: none;
-  filter: none;
-  transition: 0.5s;
+-webkit-filter: none;
+filter: none;
+transition: 0.5s;
 }
 
 /* Estilo Comentarios */
 .container-box-comentarios {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .box-comentario {
-  width: calc(100% / 3 - 40px);
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  cursor: context-menu;
-  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
-  padding: 30px;
-  background-color: white;
-  border-radius: 5px;
+width: calc(100% / 3 - 40px);
+margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+cursor: context-menu;
+box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+padding: 30px;
+background-color: white;
+border-radius: 5px;
 }
 
 .cometario {
-  font-size: 25px;
-  flex: 1 0 auto;
-  margin-bottom: 15px;
-  text-align: justify;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: white;
+font-size: 25px;
+flex: 1 0 auto;
+margin-bottom: 15px;
+text-align: justify;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-color: white;
 }
 
 .cometario::before {
-  content: "\201F";
-  font-size: 30px;
+content: "\201F";
+font-size: 30px;
 }
 
 .cometario::after {
-  content: "\201D";
-  font-size: 30px;
+content: "\201D";
+font-size: 30px;
 }
 
 .autor-comentario {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 18px;
-  border-bottom: 1px solid #1f598b;
-  background-color: white;
+display: flex;
+justify-content: flex-end;
+font-size: 18px;
+border-bottom: 1px solid #1f598b;
+background-color: white;
 }
 
-.link-comentarios-google {
-  font-size: 20px;
-}
+.link-comentarios-google {font-size: 15px;color: #1f598b;border: 1px solid #1f598b;padding: 15px 20px;}
+
+.link-comentarios-google:hover {
+  background-color: #1f598b;
+  color: #ffde58;
+  transition: 0.3s;
+  }
 
 /* Estilo Localização */
 iframe {
-  width: 100%;
-  height: 450px;
+width: 100%;
+height: 450px;
 }
 
 /* Estilo Footer */
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  width: 100%;
-  background-color: #1f598b;
-  margin-bottom: initial;
-  padding: 30px;
-  color: white;
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+width: 100%;
+background-color: #1f598b;
+margin-bottom: initial;
+padding: 30px;
+color: white;
 }
 
 .conteudo-footer {
-  width: calc(100%  / 3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+width: calc(100%  / 3);
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .dev-creator {
-  color: white;
-  padding: 15px;
+color: white;
+padding: 15px;
 }
 .redes-sociais svg{
-  fill: white;
+fill: white;
 }
