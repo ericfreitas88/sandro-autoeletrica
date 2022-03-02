@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: black;
+  color: #1f598b;
 }
 
 @font-face {
@@ -48,12 +48,14 @@ header {
   padding: 15px 25px;
   font-size: 25px;
   font-weight: 600;
+  transition: 0.3s;
 }
 
 .container-navg a:hover {
   background-color: #1f598b;
   color: #ffde58;
   border: none;
+  transition: 0.3s;
 }
 
 .container-banner h1 {
@@ -97,14 +99,20 @@ header {
 
 /* Estilo Main */
 .container-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 50px;
 }
+
 .container-conteudo h3 {
   text-align: center;
   font-size: 35px;
   color: #1f598b;
   margin-bottom: 45px;
 }
+
+/* Eslito Baterias */
 
 .baterias-img {
   display: flex;
@@ -118,18 +126,56 @@ header {
   object-fit: contain;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: gray;  /* IE */
+  filter: gray;
+  /* IE */
   cursor: pointer;
 }
 
 .baterias-img img:hover {
-  -webkit-filter: none;	
+  -webkit-filter: none;
   filter: none;
   transition: 0.5s;
 }
 
+/* Estilo Comentarios */
+.container-box-comentarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-comentario {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cometario {
+  font-size: 25px;
+  flex: 1 0 auto;
+  margin-bottom: 15px;
+}
+.cometario::before {
+  content: "\201F";
+  font-size: 30px;
+}
+.cometario::after {
+  content: "\201D";
+  font-size: 30px;
+}
+
+.autor-comentario {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  border-bottom: 1px solid #1f598b;
+}
+
+.link-comentarios-google {font-size: 20px;}
+
 /* Estilo Localização */
-  .location iframe {
-    width: 100%;
-    height: 450px;
-  }
+iframe {
+  width: 100%;
+  height: 450px;
+}
