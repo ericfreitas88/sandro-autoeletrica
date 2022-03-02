@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: #1f598b;
+  /* background-color: #f8f9fa; */
 }
 
 @font-face {
@@ -90,11 +90,13 @@ header {
 .container-banner span {
   color: white;
   font-size: 20px;
+  background-color: initial;
 }
 
 .container-banner svg {
   margin-left: 15px;
   fill: white;
+  background-color: initial;
 }
 
 /* Estilo Main */
@@ -145,11 +147,15 @@ header {
 }
 
 .box-comentario {
-  width: calc(100% / 3 - 60px);
+  width: calc(100% / 3 - 40px);
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   cursor: context-menu;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .cometario {
@@ -163,6 +169,7 @@ header {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background-color: white;
 }
 
 .cometario::before {
@@ -180,6 +187,7 @@ header {
   justify-content: flex-end;
   font-size: 18px;
   border-bottom: 1px solid #1f598b;
+  background-color: white;
 }
 
 .link-comentarios-google {
@@ -190,4 +198,31 @@ header {
 iframe {
   width: 100%;
   height: 450px;
+}
+
+/* Estilo Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 100%;
+  background-color: #1f598b;
+  margin-bottom: initial;
+  padding: 30px;
+  color: white;
+}
+
+.conteudo-footer {
+  width: calc(100%  / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dev-creator {
+  color: white;
+  padding: 15px;
+}
+.redes-sociais svg{
+  fill: white;
 }
