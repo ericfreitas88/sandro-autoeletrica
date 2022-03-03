@@ -43,7 +43,7 @@ display: flex;
 align-items: center;
 }
 
-.container-navg a {padding: 15px 25px;font-size: 20px;font-weight: 600;transition: 0.3s;color: #1f598b;}
+.container-navg a {padding: 15px 25px;font-size: 20px;transition: 0.3s;color: #1f598b;}
 
 .container-navg a:hover {
 background-color: #1f598b;
@@ -81,19 +81,9 @@ background-color: initial;
 }
 
 /* Estilo Main */
-.container-conteudo {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 50px;
-}
+.container-conteudo {display: flex;flex-direction: column;align-items: center;margin-bottom: 90px;}
 
-.container-conteudo h3 {
-text-align: center;
-font-size: 35px;
-color: #1f598b;
-margin-bottom: 45px;
-}
+.container-conteudo h3 {text-align: center;font-size: 35px;color: #1f598b;margin-bottom: 45px;}
 
 /* Eslito Baterias */
 
@@ -204,10 +194,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.conteudo-footer svg {
+  margin-right: 5px;
+  fill: white;
+}
+
 .dev-creator {
 color: white;
 padding: 15px;
-}
-.redes-sociais svg{
-fill: white;
 }
