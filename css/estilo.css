@@ -386,14 +386,11 @@ footer {
     position: absolute;
     right: 0;
     top: 50px;
-  }
-
-  a.sub-menu-item {
-    color: white;
+    background-color: white;
   }
 
   a.sub-menu-item:hover {
-    background-color: white;
+    background-color: #ffde58;
     color: #1f598b;
   }
 }

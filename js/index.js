@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-  $(".navg-menu-responsivo").on("click", function (e) {
+  // Ativa e desativa o Menu hamburguer
+  $(".icone-menu").on("click", function (e) {
     e.preventDefault();
 
     var existe_menu = document.getElementsByClassName("sub-menu");
@@ -17,6 +18,5 @@ $(document).ready(function () {
     } else {
       $(".sub-menu").remove();
     }
-  })
-
+  });
 })
