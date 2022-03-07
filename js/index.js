@@ -1,10 +1,10 @@
 $(document).ready(function () {
+  var existe_menu = document.getElementsByClassName("sub-menu");
 
   // Ativa e desativa o Menu hamburguer
   $(".icone-menu").on("click", function (e) {
     e.preventDefault();
 
-    var existe_menu = document.getElementsByClassName("sub-menu");
     console.log(existe_menu.length);
     var menu = "<div class='sub-menu'>" +
       "<a class='sub-menu-item' href='#bateria'>Baterias</a>" +
@@ -19,4 +19,16 @@ $(document).ready(function () {
       $(".sub-menu").remove();
     }
   });
+
+  $(document).on("click", function (e) {
+
+    console.log(e.target);
+    console.log($(e.target).hasClass("sub-menu-item"));
+
+    if ($(e.target).hasClass(".sub-menu-item")) {
+      console.log("submenu");
+      console.log(e.target);
+      
+    }
+  })
 })
