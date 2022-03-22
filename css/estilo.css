@@ -69,7 +69,7 @@ header {
 }
 
 .container-banner {
-  background-image: url(../assets/auto-mechanic.webp);
+  background-image: url(../assets/auto-mechanic-esmaecido.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 100%;
@@ -180,6 +180,52 @@ main {
   transition: 0.5s;
 }
 
+/* Serviços */
+  .container-conteudo.services h3 {
+    margin-bottom: 30px;
+  }
+
+  .service-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service-list li{
+    list-style: none;
+    width: calc(100% / 3);  
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .service-list li::before{
+    content: "\2713";
+    margin-right: 10px;
+  }
+
+  .orcamento-services {
+    font-size: 15px;
+    color: #1f598b;
+    border: 1px solid #1f598b;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 186px;
+    text-align: center;
+}
+
+.orcamento-services:hover {
+  background-color: #1f598b;
+  color: white;
+}
+
 /* Estilo Comentarios */
 .container-conteudo.comentarios {
   max-width: 100%;
@@ -274,12 +320,12 @@ iframe {
 /* Estilo Footer */
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 100%;
   width: 100%;
   background-color: #1f598b;
   margin-bottom: initial;
-  padding: 30px;
+  padding: 10px;
   color: white;
 }
 
@@ -330,6 +376,14 @@ footer {
 
   .container-conteudo.comentarios {
     padding: 60px 80px;
+  }
+
+  .service-list {
+    justify-content: center;
+  }
+
+  .service-list li {
+    width: 50%;
   }
 
 }
@@ -393,6 +447,12 @@ footer {
     background-color: #ffde58;
     color: #1f598b;
   }
+
+  .service-list li {
+    width: 100%;
+    padding: initial;
+  }
+
 }
 
 @media (max-width: 670px) {

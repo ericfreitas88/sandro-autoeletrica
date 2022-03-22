@@ -8,7 +8,7 @@ $(document).ready(function () {
     console.log(existe_menu.length);
     var menu = "<div class='sub-menu'>" +
       "<a class='sub-menu-item' href='#bateria'>Baterias</a>" +
-      "<a class='sub-menu-item' href='#'>Serviços</a>" +
+      "<a class='sub-menu-item' href='#services'>Serviços</a>" +
       "<a class='sub-menu-item' href='#comentarios'>Depoimentos</a>" +
       "<a class='sub-menu-item' href='#location'>Localização</a>" +
       "</div>";
