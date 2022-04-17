@@ -1,3 +1,20 @@
+/* especificação de variaveis padrão para cores 
+contribuição : marcoslanzoni@gmail.com*/
+
+:root{
+  --color_container_padrao:#1f598b;
+  --color_branco_padrao:white;
+  --color_hover_padrao:#ffde58;
+  --color_backgroud_verde:#43c554;
+  --color_backgroud_hover_verde:#369443;
+  --color_texto_black:black;
+
+
+}
+
+
+
+
 /* Estilo Geral */
 @font-face {
   font-family: 'Coolvetica';
@@ -58,12 +75,12 @@ header {
   padding: 10px 15px;
   font-size: 20px;
   transition: 0.3s;
-  color: #1f598b;
+  color:var(--color_container_padrao);
 }
 
 .container-navg a:hover {
-  background-color: #1f598b;
-  color: #ffde58;
+  background-color:var(--color_container_padrao);
+  color:var;
   border: none;
   transition: 0.3s;
 }
@@ -73,9 +90,9 @@ header {
   background-repeat: no-repeat;
   background-position: right;
   width: 100%;
-  background-color: #1f598b;
+  background-color:var(--color_container_padrao);
   padding: 100px 75px;
-  color: white;
+  color: var(--color_branco_padrao);
   display: flex;
   justify-content: center;
 }
@@ -84,14 +101,14 @@ header {
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 500;
-  text-shadow: 4px 5px black;
+  text-shadow: 4px 5px var(--color_texto_black);
 }
 
 .container-banner h2 {
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: 500;
-  text-shadow: 2px 3px black;
+  text-shadow: 2px 3px var(--color_texto_black);
 }
 
 .container-banner a {
@@ -100,26 +117,26 @@ header {
   justify-content: center;
   width: 200px;
   padding: 15px 25px;
-  background-color: #43c554;
-  color: white;
+  background-color:var(--color_backgroud_verde);
+  color: var(--color_branco_padrao);
   border-radius: 10px;
   text-align: center;
 }
 
 .container-banner a:hover {
-  background-color: #369443;
+  background-color: var(--color_backgroud_hover_verde);
   transition: 0.5s;
 }
 
 .container-banner span {
-  color: white;
+  color: var(--color_branco_padrao);
   font-size: 15px;
   background-color: initial;
 }
 
 .container-banner svg {
   margin-left: 15px;
-  fill: white;
+  fill: var(--color_branco_padrao);
   background-color: initial;
 }
 
@@ -147,7 +164,7 @@ main {
 .container-conteudo h3 {
   text-align: center;
   font-size: 30px;
-  color: #1f598b;
+  color:var(--color_container_padrao);
 }
 
 /* Eslito Baterias */
@@ -212,8 +229,8 @@ main {
 
   .orcamento-services {
     font-size: 15px;
-    color: #1f598b;
-    border: 1px solid #1f598b;
+    color: var(--color_container_padrao);
+    border: 1px solid var(--color_container_padrao);
     padding: 15px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -222,20 +239,20 @@ main {
 }
 
 .orcamento-services:hover {
-  background-color: #1f598b;
-  color: white;
+  background-color:var(--color_container_padrao);
+  color: var(--color_branco_padrao);
 }
 
 /* Estilo Comentarios */
 .container-conteudo.comentarios {
   max-width: 100%;
   width: 100%;
-  background-color: #1f598b;
+  background-color:var(--color_container_padrao);
   padding: 60px 40px;
 }
 
 .container-conteudo.comentarios h3 {
-  color: white;
+  color: var(--color_branco_padrao);
   font-weight: 500;
   margin-bottom: 60px;
 }
@@ -256,7 +273,7 @@ main {
   cursor: context-menu;
   box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
   padding: 30px;
-  background-color: white;
+  background-color: var(--color_branco_padrao);
   border-radius: 5px;
 }
 
@@ -271,7 +288,7 @@ main {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: white;
+  background-color: var(--color_branco_padrao);
 }
 
 .cometario::before {
@@ -288,22 +305,22 @@ main {
   display: flex;
   justify-content: flex-end;
   font-size: 18px;
-  border-bottom: 1px solid #1f598b;
-  background-color: white;
+  border-bottom: 1px solid var(--color_container_padrao);
+  background-color: var(--color_branco_padrao);
 }
 
 .link-comentarios-google {
   font-size: 15px;
-  color: white;
-  border: 1px solid white;
+  color: var(--color_branco_padrao);
+  border: 1px solid var(--color_branco_padrao);
   padding: 15px 20px;
   border-radius: 5px;
   margin-top: 20px;
 }
 
 .link-comentarios-google:hover {
-  background-color: white;
-  color: #1f598b;
+  background-color: var(--color_branco_padrao);
+  color: var(--color_container_padrao);
   transition: 0.3s;
 }
 
@@ -323,10 +340,10 @@ footer {
   justify-content: center;
   max-width: 100%;
   width: 100%;
-  background-color: #1f598b;
+  background-color: var(--color_container_padrao);
   margin-bottom: initial;
   padding: 10px;
-  color: white;
+  color: var(--color_branco_padrao);
 }
 
 .conteudo-footer {
@@ -340,15 +357,15 @@ footer {
 .conteudo-footer span {
   font-size: 15px;
   letter-spacing: 0.5px;
-  color: white;
+  color: var(--color_branco_padrao);
 }
 
 .conteudo-footer svg {
-  fill: white;
+  fill: var(--color_branco_padrao);
 }
 
 .dev-creator {
-  color: white;
+  color: var(--color_branco_padrao);
   padding: 15px;
 }
 
@@ -431,7 +448,7 @@ footer {
   }
 
   .navg-menu-responsivo svg {
-    fill: #1f598b;
+    fill: var(--color_container_padrao);
   }
 
   .sub-menu {
@@ -440,12 +457,12 @@ footer {
     position: absolute;
     right: 0;
     top: 50px;
-    background-color: white;
+    background-color: var(--color_branco_padrao);
   }
 
   a.sub-menu-item:hover {
-    background-color: #ffde58;
-    color: #1f598b;
+    background-color:var(--color_hover_padrao);
+    color: var(--color_container_padrao);
   }
 
   .service-list li {
