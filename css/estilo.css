@@ -8,13 +8,7 @@ contribuição : marcoslanzoni@gmail.com*/
   --color_backgroud_verde:#43c554;
   --color_backgroud_hover_verde:#369443;
   --color_texto_black:black;
-
-
 }
-
-
-
-
 /* Estilo Geral */
 @font-face {
   font-family: 'Coolvetica';
@@ -80,7 +74,7 @@ header {
 
 .container-navg a:hover {
   background-color:var(--color_container_padrao);
-  color:var;
+  color:var(--color_branco_padrao);
   border: none;
   transition: 0.3s;
 }
