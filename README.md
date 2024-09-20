@@ -1,6 +1,7 @@
 # Oficina Auto Elétrica - Página Responsiva
 
-Este é um projeto de página estática desenvolvido para uma oficina auto elétrica. A página é completamente responsiva e possui funcionalidades úteis para os visitantes, como mapa de localização e integração com a API do WhatsApp para iniciar conversas com um toque.
+Este é um projeto de página estática desenvolvido para uma oficina auto elétrica. O projeto nasceu como um frelancer, mas não avançou.
+A página é completamente responsiva e possui funcionalidades úteis para os visitantes, como mapa de localização e integração com a API do WhatsApp para iniciar conversas com um toque.
 
 ## 🛠️ Funcionalidades
 
