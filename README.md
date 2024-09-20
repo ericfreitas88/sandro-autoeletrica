@@ -11,7 +11,7 @@ A página é completamente responsiva e possui funcionalidades úteis para os vi
   
 ## 📸 Prévia do Projeto
 
-![Prévia do Projeto](link-da-imagem-ou-gif)
+![Prévia do Projeto](assets/oficina.png)
 
 ## 🚀 Tecnologias Utilizadas
 
