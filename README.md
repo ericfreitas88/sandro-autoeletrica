@@ -25,4 +25,4 @@ A página é completamente responsiva e possui funcionalidades úteis para os vi
 1. Clone o repositório:
 
    ```bash
-   https://ericfreitas88.github.io/sandro-autoeletrica/
+   https://github.com/ericfreitas88/sandro-autoeletrica.git
