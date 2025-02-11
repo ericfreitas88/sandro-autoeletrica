@@ -1,14 +1,15 @@
 /* especificação de variaveis padrão para cores 
 contribuição : marcoslanzoni@gmail.com*/
 
-:root{
-  --color_container_padrao:#1f598b;
-  --color_branco_padrao:white;
-  --color_hover_padrao:#ffde58;
-  --color_backgroud_verde:#43c554;
-  --color_backgroud_hover_verde:#369443;
-  --color_texto_black:black;
+:root {
+  --color_container_padrao: #1f598b;
+  --color_branco_padrao: white;
+  --color_hover_padrao: #ffde58;
+  --color_backgroud_verde: #43c554;
+  --color_backgroud_hover_verde: #369443;
+  --color_texto_black: black;
 }
+
 /* Estilo Geral */
 @font-face {
   font-family: 'Coolvetica';
@@ -48,7 +49,6 @@ header {
 
 .container-navg picture {
   display: flex;
-  padding-left: 15px;
 }
 
 .container-navg img {
@@ -69,12 +69,12 @@ header {
   padding: 10px 15px;
   font-size: 20px;
   transition: 0.3s;
-  color:var(--color_container_padrao);
+  color: var(--color_container_padrao);
 }
 
 .container-navg a:hover {
-  background-color:var(--color_container_padrao);
-  color:var(--color_branco_padrao);
+  background-color: var(--color_container_padrao);
+  color: var(--color_branco_padrao);
   border: none;
   transition: 0.3s;
 }
@@ -84,7 +84,7 @@ header {
   background-repeat: no-repeat;
   background-position: right;
   width: 100%;
-  background-color:var(--color_container_padrao);
+  background-color: var(--color_container_padrao);
   padding: 100px 75px;
   color: var(--color_branco_padrao);
   display: flex;
@@ -111,7 +111,7 @@ header {
   justify-content: center;
   width: 200px;
   padding: 15px 25px;
-  background-color:var(--color_backgroud_verde);
+  background-color: var(--color_backgroud_verde);
   color: var(--color_branco_padrao);
   border-radius: 10px;
   text-align: center;
@@ -158,7 +158,7 @@ main {
 .container-conteudo h3 {
   text-align: center;
   font-size: 30px;
-  color:var(--color_container_padrao);
+  color: var(--color_container_padrao);
 }
 
 /* Eslito Baterias */
@@ -192,48 +192,48 @@ main {
 }
 
 /* Serviços */
-  .container-conteudo.services h3 {
-    margin-bottom: 30px;
-  }
+.container-conteudo.services h3 {
+  margin-bottom: 30px;
+}
 
-  .service-list {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.service-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .service-list li{
-    list-style: none;
-    width: calc(100% / 3);  
-    font-size: 20px;
-    margin-bottom: 30px;
-    padding: 30px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+.service-list li {
+  list-style: none;
+  width: calc(100% / 3);
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 30px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
-  .service-list li::before{
-    content: "\2713";
-    margin-right: 10px;
-  }
+.service-list li::before {
+  content: "\2713";
+  margin-right: 10px;
+}
 
-  .orcamento-services {
-    font-size: 15px;
-    color: var(--color_container_padrao);
-    border: 1px solid var(--color_container_padrao);
-    padding: 15px 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 186px;
-    text-align: center;
+.orcamento-services {
+  font-size: 15px;
+  color: var(--color_container_padrao);
+  border: 1px solid var(--color_container_padrao);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 186px;
+  text-align: center;
 }
 
 .orcamento-services:hover {
-  background-color:var(--color_container_padrao);
+  background-color: var(--color_container_padrao);
   color: var(--color_branco_padrao);
 }
 
@@ -241,7 +241,7 @@ main {
 .container-conteudo.comentarios {
   max-width: 100%;
   width: 100%;
-  background-color:var(--color_container_padrao);
+  background-color: var(--color_container_padrao);
   padding: 60px 40px;
 }
 
@@ -253,6 +253,7 @@ main {
 
 .container-box-comentarios {
   display: flex;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1100px;
@@ -261,7 +262,6 @@ main {
 
 .box-comentario {
   width: calc(100% / 3 - 40px);
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   cursor: context-menu;
@@ -331,25 +331,57 @@ iframe {
 /* Estilo Footer */
 footer {
   display: flex;
-  justify-content: center;
-  max-width: 100%;
-  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 10px;
+  min-height: 200px;
   background-color: var(--color_container_padrao);
-  margin-bottom: initial;
-  padding: 10px;
   color: var(--color_branco_padrao);
 }
 
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .conteudo-footer {
-  width: calc(100% / 3);
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 10px
 }
 
-.conteudo-footer span {
-  font-size: 15px;
+.conteudo-footer h4 {
+  color: #ffcc00;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.conteudo-footer ul li {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.img-footer {
+  max-width: 120px;
+  filter: drop-shadow(0px 0px 1px #fff);
+}
+
+.conteudo-footer ul {
+  gap: 5px;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+.conteudo-footer a {
+  font-size: 16px;
   letter-spacing: 0.5px;
   color: var(--color_branco_padrao);
 }
@@ -360,7 +392,6 @@ footer {
 
 .dev-creator {
   color: var(--color_branco_padrao);
-  padding: 15px;
 }
 
 /* resposnsivo */
@@ -454,8 +485,12 @@ footer {
     background-color: var(--color_branco_padrao);
   }
 
+  .sub-menu.hidden {
+    display: none;
+  }
+
   a.sub-menu-item:hover {
-    background-color:var(--color_hover_padrao);
+    background-color: var(--color_hover_padrao);
     color: var(--color_container_padrao);
   }
 
@@ -464,6 +499,10 @@ footer {
     padding: initial;
   }
 
+  .footer-links {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -487,5 +526,16 @@ footer {
 @media (max-width: 490px) {
   .container-banner {
     padding: 100px 35px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  .conteudo-footer {
+    width: auto;
+    flex: 1 1 auto;
   }
 }

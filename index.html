@@ -1,187 +1,233 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandro Autoelétrica</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" type="imagex/png" href="assets/logo-small.webp">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandro Autoelétrica</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="shortcut icon" type="imagex/png" href="assets/logo-small.webp">
+</head>
 
-  <body>
-    <header>
-      <div class="container-navg">
-        <picture>
-          <source media="(max-width: 800px)" srcset="assets/logo-small.webp">
-          <img src="assets/logo-completa.webp" alt="Sandro Autoelétrica">
-        </picture>
-        <nav class="navg-menu">
-          <a href="#bateria">Baterias</a>
-          <a href="#services">Serviços</a>
-          <a href="#comentarios">Depoimentos</a>
-          <a href="#location">Localização</a>
-        </nav>
+<body>
+  <header>
+    <div class="container-navg">
+      <picture>
+        <source media="(max-width: 800px)" srcset="assets/logo-small.webp">
+        <img src="assets/logo-completa.webp" alt="Sandro Autoelétrica">
+      </picture>
+      <nav class="navg-menu">
+        <a href="#bateria">Baterias</a>
+        <a href="#services">Serviços</a>
+        <a href="#comentarios">Depoimentos</a>
+        <a href="#location">Localização</a>
+      </nav>
 
-        <nav class="navg-menu-responsivo">
-          <svg class="icone-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-        </nav>
+      <nav class="navg-menu-responsivo">
+        <svg class="icone-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30" height="30">
+          <path
+            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+        </svg>
+
+        <div class='sub-menu hidden'>
+          <a class='sub-menu-item' href='#bateria'>Baterias</a>
+          <a class='sub-menu-item' href='#services'>Serviços</a>
+          <a class='sub-menu-item' href='#comentarios'>Depoimentos</a>
+          <a class='sub-menu-item' href='#location'>Localização</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-banner">
+      <div class="miolo-banner">
+        <h1>Baterias, parte elétrica e <br> serviços especializados</h1>
+        <h2>Entre em contato e solicite seu orçamento</h2>
+        <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de fazer um orçamento!"
+          target="_blank">
+          <span>Fale conosco</span>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+        </a>
       </div>
+    </div>
+  </header>
 
-      <div class="container-banner">
-        <div class="miolo-banner">
-          <h1>Baterias, parte elétrica e <br> serviços especializados</h1>
-          <h2>Entre em contato e solicite seu orçamento</h2>
-          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de fazer um orçamento!" target="_blank">
-            <span>Fale conosco</span>
+  <main>
+    <!-- Baterias -->
+    <section id="bateria" class="container-conteudo">
+      <div class="baterias">
+        <h3>Baterias</h3>
+        <div class="baterias-img">
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Moura!"
+            target="_blank">
+            <img src="assets/moura.webp" alt="Bateria Moura">
+          </a>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-              <path
-                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-            </svg>
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Heliar!"
+            target="_blank">
+            <img src="assets/heliar.webp" alt="Bateria Heliar">
+          </a>
+
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Acdelco!"
+            target="_blank">
+            <img src="assets/acdelco.webp" alt="Bateria Acdelco">
+          </a>
+
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Bosch!"
+            target="_blank">
+            <img src="assets/bosch.webp" alt="Bateria Bosch">
+          </a>
+
+
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Herbo!"
+            target="_blank">
+            <img src="assets/herbo.webp" alt="Bateria Herbo">
+          </a>
+
+          <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Reifor!"
+            target="_blank">
+            <img src="assets/reifor.webp" alt="Bateria Reifor">
           </a>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Baterias -->
-      <section id="bateria" class="container-conteudo">
-        <div class="baterias">
-          <h3>Baterias</h3>
-          <div class="baterias-img">
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Moura!" target="_blank">
-              <img src="assets/moura.webp" alt="Bateria Moura">
-            </a>
+    <!-- Serviços -->
+    <section id="services" class="container-conteudo services">
+      <h3>Serviços</h3>
+      <ul class="service-list">
+        <li>Sistema de iluminação</li>
+        <li>Troca de bateria do veículo</li>
+        <li>Conserto alternador</li>
+        <li>Motor de arranque</li>
+        <li>Ventoinhas</li>
+        <li>Vidros elétricos</li>
+      </ul>
 
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Heliar!" target="_blank">
-              <img src="assets/heliar.webp" alt="Bateria Heliar">
-            </a>
+      <a class="orcamento-services"
+        href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de fazer um orçamento!"
+        target="_blank">Faça um orçamento</a>
+    </section>
 
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Acdelco!" target="_blank">
-              <img src="assets/acdelco.webp" alt="Bateria Acdelco">
-            </a>
+    <!-- Avaliações -->
+    <section id="comentarios" class="container-conteudo comentarios">
+      <h3>Centenas de clientes satisfeitos</h3>
 
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Bosch!" target="_blank">
-              <img src="assets/bosch.webp" alt="Bateria Bosch">
-            </a>
-
-
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Herbo!" target="_blank">
-              <img src="assets/herbo.webp" alt="Bateria Herbo">
-            </a>
-
-            <a href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de informações sobre baterias Reifor!" target="_blank">
-              <img src="assets/reifor.webp" alt="Bateria Reifor">
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Serviços -->
-      <section id="services" class="container-conteudo services">
-        <h3>Serviços</h3>
-          <ul class="service-list">
-            <li>Sistema de iluminação</li>
-            <li>Troca de bateria do veículo</li>
-            <li>Conserto alternador</li>
-            <li>Motor de arranque</li>
-            <li>Ventoinhas</li>
-            <li>Vidros elétricos</li>
-          </ul>
-
-          <a class="orcamento-services"
-          href="https://api.whatsapp.com/send?1=pt_br&phone=5521000000000&text=Olá, gostaria de fazer um orçamento!"
-          target="_blank">Faça um orçamento</a>
-      </section>
-
-      <!-- Avaliações -->
-      <section id="comentarios" class="container-conteudo comentarios">
-        <h3>Centenas de clientes satisfeitos</h3>
-
-        <div class="container-box-comentarios">
-          <div class="box-comentario item">
-            <p class="cometario">Sandro é um profissional com mais de 30 anos no local em loja que herdou de seu pai. Competência e honestidade. Querido dos
-              taxistas. Chega cedo, a loja costuma estar sempre cheia.</p>
-            <div class="autor-comentario">Ulisses Barreto de Freitas</div>
-          </div>
-
-          <div class="box-comentario item">
-            <p class="cometario">Atendimento nota 1000. Todos demonstram muito conhecimento e profissionalismo. Não há pressa em te atender. Você sente o
-              interesse em resolver o problema do seu carro. Recomendo essa oficina.</p>
-            <div class="autor-comentario">Rodolfo Cintra</div>
-          </div>
-
-          <div class="box-comentario item">
-            <p class="cometario">Há mais de 15 anos frequento essa oficina que vem atravessando gerações sem perder a qualidade e o respeito aos clientes.
-              Profissionais super capacitados, corretos e mto cordiais. Parabéns Sandro e equipe. Obrigado sempre.</p>
-            <div class="autor-comentario">Riva Ger</div>
-          </div>
-
-          <div class="box-comentario item">
-            <p class="cometario">Se honestidade é um diferencial neste ramo. Esta oficina possui. Tratamento ímpar dado pelo dono. Recomendadíssimo. Resolveu o
-              meu problema rápido e com preço justo.</p>
-            <div class="autor-comentario">Rafael Teixeira Queiroz</div>
-          </div>
-
-          <div class="box-comentario item">
-            <p class="cometario">Fui por recomendação e enquanto esperava a abertura da oficina, todos os clientes que chegavam, falavam muito bem do serviço.
-            </p>
-            <div class="autor-comentario">Cezar Valle</div>
-          </div>
-
-          <div class="box-comentario item">
-            <p class="cometario">Muito bom Muito honesto recomendo sem medo com certeza fui a primeira vez e irei sempre que precisar. Muito 👍 bom!</p>
-            <div class="autor-comentario">Antônio Rodrigues</div>
-          </div>
+      <div class="container-box-comentarios">
+        <div class="box-comentario item">
+          <p class="cometario">Sandro é um profissional com mais de 30 anos no local em loja que herdou de seu pai.
+            Competência e honestidade. Querido dos
+            taxistas. Chega cedo, a loja costuma estar sempre cheia.</p>
+          <div class="autor-comentario">Ulisses Barreto de Freitas</div>
         </div>
 
-        <a class="link-comentarios-google"
-          href="https://www.google.com/search?q=sandros+auto+eletrica&oq=sa&aqs=chrome.0.69i59j35i39j69i57j35i39j46i131i199i291i433i512j69i60l2j69i61.728j0j4&sourceid=chrome&ie=UTF-8#lrd=0x997c5c00041c85:0xe462e89279789438,1,,,"
-          target="_blank">Veja todas as avalições</a>
-      </section>
+        <div class="box-comentario item">
+          <p class="cometario">Atendimento nota 1000. Todos demonstram muito conhecimento e profissionalismo. Não há
+            pressa em te atender. Você sente o
+            interesse em resolver o problema do seu carro. Recomendo essa oficina.</p>
+          <div class="autor-comentario">Rodolfo Cintra</div>
+        </div>
 
-      <!-- Localização -->
-      <section id="location" class="container-conteudo location">
-        <h3>Onde estamos</h3>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.0497524608195!2d-43.28815118560395!3d-22.87462044247353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c5bfff89eb9%3A0xfdf49e1723ec658c!2sAv.%20Pastor%20Martin%20Luther%20King%20J%C3%BAnior%2C%201889%20-%20Inhauma%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020761-120!5e0!3m2!1spt-BR!2sbr!4v1646176571441!5m2!1spt-BR!2sbr"
-          width="" height="" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
-    </main>
+        <div class="box-comentario item">
+          <p class="cometario">Há mais de 15 anos frequento essa oficina que vem atravessando gerações sem perder a
+            qualidade e o respeito aos clientes.
+            Profissionais super capacitados, corretos e mto cordiais. Parabéns Sandro e equipe. Obrigado sempre.</p>
+          <div class="autor-comentario">Riva Ger</div>
+        </div>
 
-    <footer>
-      <!-- <div class="conteudo-footer">
-        <a href="tel:+5521000000000">
-          <span>(00) 0000-0000</span>
-        </a>
-        <a href="mailto:lorem@ipsun.com.br">
-          <span>lorem@ipsun.com.br</span>
-        </a>
-      </div> -->
+        <div class="box-comentario item">
+          <p class="cometario">Se honestidade é um diferencial neste ramo. Esta oficina possui. Tratamento ímpar dado
+            pelo dono. Recomendadíssimo. Resolveu o
+            meu problema rápido e com preço justo.</p>
+          <div class="autor-comentario">Rafael Teixeira Queiroz</div>
+        </div>
 
-      <div class="conteudo-footer">
-        <a class="dev-creator" href="https://www.linkedin.com/in/eric-vilarino-de-freitas-18920851/" target="_blank" rel="noopener noreferrer">
-          &#169;Por Eric Freitas
-        </a>
+        <div class="box-comentario item">
+          <p class="cometario">Fui por recomendação e enquanto esperava a abertura da oficina, todos os clientes que
+            chegavam, falavam muito bem do serviço.
+          </p>
+          <div class="autor-comentario">Cezar Valle</div>
+        </div>
+
+        <div class="box-comentario item">
+          <p class="cometario">Muito bom Muito honesto recomendo sem medo com certeza fui a primeira vez e irei sempre
+            que precisar. Muito 👍 bom!</p>
+          <div class="autor-comentario">Antônio Rodrigues</div>
+        </div>
       </div>
 
-      <!-- <div class="conteudo-footer">
+      <a class="link-comentarios-google"
+        href="https://www.google.com/search?q=sandros+auto+eletrica&oq=sa&aqs=chrome.0.69i59j35i39j69i57j35i39j46i131i199i291i433i512j69i60l2j69i61.728j0j4&sourceid=chrome&ie=UTF-8#lrd=0x997c5c00041c85:0xe462e89279789438,1,,,"
+        target="_blank">Veja todas as avalições</a>
+    </section>
+
+    <!-- Localização -->
+    <section id="location" class="container-conteudo location">
+      <h3>Onde estamos</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.0497524608195!2d-43.28815118560395!3d-22.87462044247353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c5bfff89eb9%3A0xfdf49e1723ec658c!2sAv.%20Pastor%20Martin%20Luther%20King%20J%C3%BAnior%2C%201889%20-%20Inhauma%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020761-120!5e0!3m2!1spt-BR!2sbr!4v1646176571441!5m2!1spt-BR!2sbr"
+        width="" height="" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <div class="conteudo-footer">
+        <img class="img-footer" src="./assets/logo-small.webp" />
+      </div>
+
+      <div class="conteudo-footer">
+        <h4>Contato</h4>
+
+        <nav class="nav-footer">
+          <a href="tel:+5521000000000"><b>Telefone:</b> <span>(00) 0000-0000</span></a>
+          <a href="mailto:lorem@ipsun.com.br"><b>Email:</b> <span>lorem@ipsun.com.br</span></a>
+          <a href="https://maps.app.goo.gl/yN4quZVqPP6ZgdQMA" target="_blank"><b>Endereço:</b> Rua Exemplo, 123 - Cidade
+          </a>
+        </nav>
+      </div>
+
+      <div class="conteudo-footer">
+        <h4>Navegaçao</h4>
+
+        <nav class="nav-footer">
+          <a class='nav-footer-item' href='#bateria'>Baterias</a>
+          <a class='nav-footer-item' href='#services'>Serviços</a>
+          <a class='nav-footer-item' href='#comentarios'>Depoimentos</a>
+          <a class='nav-footer-item' href='#location'>Localização</a>
+        </nav>
+      </div>
+
+      <div class="conteudo-footer">
+        <h4>Redes sociais</h4>
+
         <nav class="redes-sociais">
           <a href="https://www.facebook.com/profile.php?id=615725265138263" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16">
               <path
                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
             </svg>
           </a>
         </nav>
-      </div> -->
+      </div>
+    </div>
 
-    </footer>
+    <div class="conteudo-footer autor">
+      <p>&#169; Todos os direitos reservados.</p>
+      <a class="dev-creator" href="https://www.linkedin.com/in/eric-vilarino-de-freitas-18920851/" target="_blank">
+        Desenvolvido por Eric Freitas
+      </a>
+    </div>
+  </footer>
 
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/index.js"></script>
+</body>
 
 </html>
