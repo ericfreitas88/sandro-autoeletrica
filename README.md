@@ -1,28 +1,86 @@
-# Oficina Auto Elétrica - Página Responsiva
+# Oficina Auto Elétrica 🚗⚡
 
-Este é um projeto de página estática desenvolvido para uma oficina auto elétrica. O projeto nasceu como um frelancer, mas não avançou.
-A página é completamente responsiva e possui funcionalidades úteis para os visitantes, como mapa de localização e integração com a API do WhatsApp para iniciar conversas com um toque.
+> **Observação:** Este projeto foi desenvolvido como freelancer, porém não foi para frente e não chegou a ser publicado.
 
-## 🛠️ Funcionalidades
+Projeto de página institucional responsiva para uma oficina auto elétrica, desenvolvido com foco em usabilidade, performance e experiência do usuário. Ideal para empresas do setor automotivo que desejam presença digital moderna e eficiente.
 
-- **Responsividade**: A página foi projetada para se adaptar a diversos tamanhos de tela, proporcionando uma experiência agradável tanto em dispositivos móveis quanto em desktops.
-- **Mapa de Localização**: Integração com o Google Maps para exibir a localização da oficina.
-- **Integração com WhatsApp**: Botão de "converse conosco" que abre automaticamente uma conversa com a oficina no WhatsApp ao ser clicado.
-  
-## 📸 Prévia do Projeto
+---
 
-![Prévia do Projeto](assets/oficina.png)
+## 📖 Sobre o Projeto
+
+Este projeto consiste em uma landing page estática, responsiva e otimizada, criada para apresentar os serviços de uma oficina auto elétrica, facilitar o contato com clientes e destacar diferenciais competitivos. O layout foi pensado para conversão e fácil navegação em qualquer dispositivo.
+
+---
+
+## ✨ Principais Diferenciais
+
+- **Design Responsivo**: Layout adaptável para smartphones, tablets e desktops.
+- **Contato Rápido**: Botão de WhatsApp integrado para atendimento instantâneo.
+- **Localização Interativa**: Mapa do Google Maps incorporado.
+- **Depoimentos de Clientes**: Seção para avaliações e feedbacks.
+- **Código Limpo e Semântico**: Seguindo boas práticas de HTML5 e CSS3.
+- **Fácil Customização**: Estrutura simples para personalização de cores, textos e imagens.
+
+---
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização da página e design responsivo.
-- **Google Maps API**: Para exibir o mapa da localização da oficina.
-- **WhatsApp API**: Para abrir uma conversa diretamente com a oficina.
+- **HTML5** — Estrutura semântica e acessível.
+- **CSS3** — Estilização moderna e responsiva.
+- **Google Maps Embed** — Exibição de localização.
+- **WhatsApp API** — Integração para contato direto.
 
-## 📍 Como Executar o Projeto
+---
 
-1. Clone o repositório:
+## 📂 Estrutura de Pastas
 
+```
+├── assets/         # Imagens e recursos visuais
+├── css/            # Arquivos de estilos (CSS)
+├── fonts/          # Fontes customizadas
+├── index.html      # Página principal
+└── README.md       # Documentação do projeto
+```
+
+---
+
+## 🛠️ Como Executar Localmente
+
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/ericfreitas88/sandro-autoeletrica.git
+   ```
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd sandro-autoeletrica
+   ```
+3. **Abra o arquivo `index.html` no seu navegador.**
+
+> Não é necessário servidor backend ou instalação de dependências.
+
+---
+
+## 📱 Demonstração
+
+![Prévia do Projeto](assets/oficina.png)
+
+---
+
+## 💡 Possíveis Melhorias
+
+- Adicionar formulário de contato funcional.
+- Otimizar SEO para melhor ranqueamento.
+- Implementar animações e microinterações.
+- Internacionalização (i18n).
+
+---
+
+## 👨‍💻 Autor
+
+- **Eric Vilarino de Freitas**
+- [LinkedIn](https://www.linkedin.com/in/eric-vilarino-de-freitas-18920851/)
+<!-- - [Portfólio](https://ericfreitas.com.br/) -->
+
+---
+
+> Este projeto pode ser utilizado como base para sites institucionais de pequenas empresas, especialmente do ramo automotivo.
