@@ -12,6 +12,12 @@ Este projeto consiste em uma landing page estática, responsiva e otimizada, cri
 
 ---
 
+## 📱 Demonstração
+
+![Prévia do Projeto](assets/oficina.png)
+
+---
+
 ## ✨ Principais Diferenciais
 
 - **Design Responsivo**: Layout adaptável para smartphones, tablets e desktops.
@@ -57,12 +63,6 @@ Este projeto consiste em uma landing page estática, responsiva e otimizada, cri
 3. **Abra o arquivo `index.html` no seu navegador.**
 
 > Não é necessário servidor backend ou instalação de dependências.
-
----
-
-## 📱 Demonstração
-
-![Prévia do Projeto](assets/oficina.png)
 
 ---
 
